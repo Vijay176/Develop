@@ -1,0 +1,11 @@
+<h1 mat-dialog-title>Delete User</h1>
+<div mat-dialog-content>
+    <div Fxflex=100>
+    Are you sure you want to delete " {{data[0].Name}} "
+    </div>
+
+</div>
+<div mat-dialog-actions>
+    <button mat-button [mat-dialog-close]="data[0]" cdkFocusInitial>Yes</button>
+    <button mat-button (click)="onNoClick()" >No</button>
+</div>

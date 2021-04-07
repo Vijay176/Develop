@@ -1,0 +1,72 @@
+[
+    {
+        "Id": 1,
+        "Name": "Rakesh Roshan",
+        "Email": "rakesh@gmail.com",
+        "Gender": "Male",
+        "Address": "Pune, Maharastra, India"
+    },
+    {
+        "Id": 2,
+        "Name": "Nitin Shinde",
+        "Email": "nitin@gmail.com",
+        "Gender": "Male",
+        "Address": "Mumbai, Maharastra, India"
+    },
+    {
+        "Id": 3,
+        "Name": "Rakesh Roshan",
+        "Email": "rakesh@gmail.com",
+        "Gender": "Male",
+        "Address": "Pune, Maharastra, India"
+    },
+    {
+        "Id": 4,
+        "Name": "Kavita Rathod",
+        "Email": "kavita@gmail.com",
+        "Gender": "Female",
+        "Address": "Mumbai, Maharastra, India"
+    },
+    {
+        "Id": 5,
+        "Name": "Shweta Phutane",
+        "Email": "shweta@gmail.com",
+        "Gender": "Female",
+        "Address": "Mumbai, Maharastra, India"
+    },
+    {
+        "Id": 6,
+        "Name": "Rakesh Roshan",
+        "Email": "rakesh@gmail.com",
+        "Gender": "Male",
+        "Address": "Pune, Maharastra, India"
+    },
+    {
+        "Id": 7,
+        "Name": "Nitin Shinde",
+        "Email": "nitin@gmail.com",
+        "Gender": "Male",
+        "Address": "Mumbai, Maharastra, India"
+    },
+    {
+        "Id": 8,
+        "Name": "Rakesh Roshan",
+        "Email": "rakesh@gmail.com",
+        "Gender": "Male",
+        "Address": "Pune, Maharastra, India"
+    },
+    {
+        "Id": 9,
+        "Name": "Kavita Rathod",
+        "Email": "kavita@gmail.com",
+        "Gender": "Female",
+        "Address": "Mumbai, Maharastra, India"
+    },
+    {
+        "Id": 10,
+        "Name": "Shweta Phutane",
+        "Email": "shweta@gmail.com",
+        "Gender": "Female",
+        "Address": "Mumbai, Maharastra, India"
+    }
+]

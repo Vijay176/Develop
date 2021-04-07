@@ -1,0 +1,47 @@
+
+
+table {
+  width: 100%;
+}
+
+button {
+  margin: 16px 8px;
+}
+
+
+th.mat-sort-header-sorted {
+  color: #26547a;
+}
+
+th{
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+      color: #0b0c0c;
+    font-weight: bold;
+}
+
+tr {
+    @extend th;
+    font-weight: normal;
+}
+        
+/*.mat-row:nth-child(odd){
+    background-color: black;
+}*/
+
+.tableClass {
+    margin: 0px 10px 10px 10px;
+    width: 97%;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+}
+
+.example-spacer {
+  margin-left: 83%;
+}
+
+.progress {
+    @extend th;
+    font-weight: bold;
+    font-size: 15px;
+}

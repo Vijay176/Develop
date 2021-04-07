@@ -1,0 +1,42 @@
+<h1 mat-dialog-title>Dialog with elements</h1>
+<div mat-dialog-content>
+    <div Fxflex=100>
+        <mat-form-field style="width: 65rem;" appearance="outline">
+            <mat-label>Name</mat-label>
+            <input matInput [(ngModel)]="data[0].Name">
+        </mat-form-field>
+    </div>
+    <div Fxflex=100>
+        <mat-form-field style="width: 65rem;" appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="data[0].Email">
+        </mat-form-field>
+    </div>
+    <div Fxflex=100>
+        <mat-form-field style="width: 65rem;" appearance="outline">
+            <mat-label>Address</mat-label>
+            <input matInput [(ngModel)]="data[0].Address">
+        </mat-form-field>
+    </div>
+    <div Fxflex=100>
+        <label id="example-radio-group-label">Gender</label>
+        <mat-radio-group [(ngModel)]="data[0].Gender" style="margin-left: 10px;" aria-label="Select an option">
+            <mat-radio-button value="Male">Male</mat-radio-button>
+            <mat-radio-button value="Female">Female</mat-radio-button>
+        </mat-radio-group>
+    </div>
+    <div Fxflex=100 style="margin-top: 20px;">
+        <mat-form-field style="width: 65rem;" appearance="outline">
+            <mat-label>Date Of Birth</mat-label>
+            <input matInput [matDatepicker]="picker">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+    </div>
+
+</div>
+<div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Close</button>
+    <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Submit</button>
+</div>
+
