@@ -28,7 +28,7 @@
     <div Fxflex=100 style="margin-top: 20px;">
         <mat-form-field style="width: 65rem;" appearance="outline">
             <mat-label>Date Of Birth</mat-label>
-            <input matInput [matDatepicker]="picker">
+            <input [(ngModel)]="data[0].DOB" matInput [matDatepicker]="picker">
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker></mat-datepicker>
         </mat-form-field>

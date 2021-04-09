@@ -5,6 +5,7 @@ import * as data from '../../assets/JsonData/userData.json';
 import { DeleteConfirmDialogComponent } from './delete-confirm/delete-confirm-dialog/delete-confirm-dialog.component';
 import { EditConfirmDialogComponent } from './edit-confirm/edit-confirm-dialog/edit-confirm-dialog.component';
 import { UserList } from './../model/user-list.model';
+import { editConfirmDialogResult } from 'src/app/model/user-list.model';
 
 const ELEMENT_DATA: UserList[] = (data as any).default;
 
@@ -15,7 +16,7 @@ const ELEMENT_DATA: UserList[] = (data as any).default;
 })
 export class UserDiplayComponent implements OnInit{
 
-  displayedColumns: string[] = ['Select', 'Name', 'Email', 'Gender', 'Address', 'Actions'];
+  displayedColumns: string[] = ['Select', 'Name', 'Email', 'Gender', 'Address', 'DOB', 'Actions'];
   dataSource = new MatTableDataSource(ELEMENT_DATA);
   selection = new SelectionModel<UserList>(true, []);
   maleUsers = 0;
@@ -43,7 +44,8 @@ export class UserDiplayComponent implements OnInit{
       data: this.dataSource.data.filter((element) => element.Id === value)
     });
 
-    dialogRef.afterClosed().subscribe(result => {
+    dialogRef.afterClosed().subscribe((result: editConfirmDialogResult) => {
+      result[0].DOB = new Date(result[0].DOB).toLocaleDateString();
       this.countProgress();
     });
   }
@@ -71,6 +73,7 @@ export class UserDiplayComponent implements OnInit{
       if (result !== undefined) {
         this.deleteUser(value);
         this.dataSource = new MatTableDataSource(this.dataSource.data);
+        this.dataSource.paginator = this.paginator;
         this.countProgress();
       }
     });

@@ -4,69 +4,79 @@
         "Name": "Rakesh Roshan",
         "Email": "rakesh@gmail.com",
         "Gender": "Male",
-        "Address": "Pune, Maharastra, India"
+        "Address": "Pune, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 2,
         "Name": "Nitin Shinde",
         "Email": "nitin@gmail.com",
         "Gender": "Male",
-        "Address": "Mumbai, Maharastra, India"
+        "Address": "Mumbai, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 3,
         "Name": "Rakesh Roshan",
         "Email": "rakesh@gmail.com",
         "Gender": "Male",
-        "Address": "Pune, Maharastra, India"
+        "Address": "Pune, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 4,
         "Name": "Kavita Rathod",
         "Email": "kavita@gmail.com",
         "Gender": "Female",
-        "Address": "Mumbai, Maharastra, India"
+        "Address": "Mumbai, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 5,
         "Name": "Shweta Phutane",
         "Email": "shweta@gmail.com",
         "Gender": "Female",
-        "Address": "Mumbai, Maharastra, India"
+        "Address": "Mumbai, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 6,
         "Name": "Rakesh Roshan",
         "Email": "rakesh@gmail.com",
         "Gender": "Male",
-        "Address": "Pune, Maharastra, India"
+        "Address": "Pune, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 7,
         "Name": "Nitin Shinde",
         "Email": "nitin@gmail.com",
         "Gender": "Male",
-        "Address": "Mumbai, Maharastra, India"
+        "Address": "Mumbai, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 8,
         "Name": "Rakesh Roshan",
         "Email": "rakesh@gmail.com",
         "Gender": "Male",
-        "Address": "Pune, Maharastra, India"
+        "Address": "Pune, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 9,
         "Name": "Kavita Rathod",
         "Email": "kavita@gmail.com",
         "Gender": "Female",
-        "Address": "Mumbai, Maharastra, India"
+        "Address": "Mumbai, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     },
     {
         "Id": 10,
         "Name": "Shweta Phutane",
         "Email": "shweta@gmail.com",
         "Gender": "Female",
-        "Address": "Mumbai, Maharastra, India"
+        "Address": "Mumbai, Maharastra, India",
+        "DOB": "DD/MM/YYYY"
     }
 ]
